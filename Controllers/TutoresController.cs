@@ -5,6 +5,8 @@ using VetTechApi.Model;
 
 namespace VetTechApi.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class TutoresController : Controller
     {
       

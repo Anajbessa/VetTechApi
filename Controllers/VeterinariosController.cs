@@ -5,6 +5,8 @@ using VetTechApi.Model;
 
 namespace VetTechApi.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class VeterinariosController : Controller
     {
         private readonly AppDbContext _context;
