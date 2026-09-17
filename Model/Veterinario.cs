@@ -8,5 +8,7 @@ namespace VetTechApi.Model
             public string Nome { get; set; }
             public string CMRV { get; set; }
             public string Especialidade { get; set; }
+
+            public ICollection<Consulta> Consultas { get; set; } = new List<Consulta>();
     }
 }

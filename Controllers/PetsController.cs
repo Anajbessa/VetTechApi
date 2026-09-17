@@ -7,7 +7,7 @@ namespace VetTechApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PetsController : Controller
+    public class PetsController : ControllerBase
     {
        private readonly AppDbContext _context;
 

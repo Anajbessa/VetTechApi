@@ -5,7 +5,7 @@ using VetTechApi.Model;
 
 namespace VetTechApi.Controllers
 {
-    public class ConsultasController : Controller
+    public class ConsultasController : ControllerBase
     {
         private readonly AppDbContext _context;
 
